@@ -329,11 +329,14 @@ span:hover {
     border: 15px solid #ffbee5;
 }
 
-video {
+.video-youtube {
+    border: 7px solid black;
     border-radius: 12%;
-    margin: .7rem;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.808);
-    border: 6px solid black;
+    overflow: hidden;
+    width: 15rem;
+    background-color: black;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.87));
+    margin: 1rem;
 }
 
 .flechas {
@@ -603,6 +606,25 @@ p {
 
 @media screen and (max-width: 470px) {
 
+    body {
+        background: url(./images.css/fondo-mobile.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .video-youtube {
+        border: 7px solid black;
+        border-radius: 12%;
+        overflow: hidden;
+        width: 15rem;
+        background-color: black;
+        filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.87));
+        margin: 1rem;
+    }
+
+    iframe {
+        border-radius: 12%;
+    }
+
     #iconos div {
         height: 4rem;
         width: 4rem;
@@ -623,10 +645,6 @@ p {
     .logo-bar img {
         width: 25%;
         float: left;
-    }
-
-    .off {
-        display: none;
     }
 
     h1 {
