@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,700,1,200" />
+    <link rel="icon" href="./images.css/logodani.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <title>Daniela González</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#proye">Proyectos</a></li>
+                <li><a href="#porta">Portafolio</a></li>
+            <li><a href="#fondo">Contacto</a></li>
+            </ul>
+            <ul class="logo-bar">
+                <li><img src="./iconos/rectangular.png" alt="logodani"></li>
+                <li class="hideOnMobile"><a href="#">Inicio</a></li>
+                <li class="hideOnMobile"><a href="#proye">Proyectos</a></li>
+                <li class="hideOnMobile"><a href="#porta">Portafolio</a></li>
+                <li class="hideOnMobile"><a href="#fondo">Contacto</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Dani González</h1>
+        <div class="grid">
+            <div class="box hola">
+                <h2>Sobre Mí</h2>
+                <p>Soy apasionada de todo lo que tenga que ver con redes, desde creación de contenido, edición, diseño, tendencias hasta anuncios publicitarios. Me gusta mostrar la verdadera esencia de tu marca al público.</p>
+            </div>
+            <div class="box dani">
+                <img src="./images.css/dan-removebg-preview.png">
+            </div>
+
+            <div class="box imagen"></div>
+
+            <div class="box proyectos" id="proye">
+                <h2>Mis Proyectos</h2>
+                <p>Mi visión es serle fiel a tu marca y a tu esencia como negocio. Me gusta añadir ese extra para que tus redes luzcan más profesionales y activas.</p>
+                <div class="images-container">
+                    <div class="peque1"><a href="https://www.instagram.com/anapatonpilatescenter/" target="_blank"></a></div>
+                    <div class="peque2"><a href="https://www.instagram.com/glamscan.app/" target="_blank"></a></div>
+                    <div class="peque3"><a href="https://www.instagram.com/jonajoconsulting/" target="_blank"></a></div>
+                    <div class="peque4"><a href="https://www.instagram.com/jurokumusashi/" target="_blank"></a></div>
+                    <div class="peque5"><a href="https://www.tiktok.com/@mgglobalresources" target="_blank"></a></div>
+                    <div class="peque6"><a href="https://www.instagram.com/live.bart/" target="_blank"></a></div>
+                    <div class="peque7"><a href="https://www.instagram.com/_vivirenvida_/?hl=es" target="_blank"></a></div>
+                    <div class="peque8"><a href="https://www.instagram.com/rentalios/" target="_blank"></a></div>
+                    <div class="peque9"><a href="https://www.tiktok.com/@furoreaccesorios" target="_blank"></a></div>
+                </div> 
+            </div>
+            <div class="box portafolio" id="porta">
+                <div class="itemcarrusel" id="item-1">
+                    <div class="tarjeta" id="tarjeta-1">
+                        <video class="video" width="250px" autoplay muted loop>
+                            <source src="./videos/uno.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/tres.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/furoree.mp4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/juroku.mp4" type="video/MP4"></source>
+                        </video>
+                    </div>
+                    <div class="flechas">
+                        <a href="#item-7">
+                            <span class="material-symbols-rounded fle">
+                                arrow_circle_left
+                            </span>
+                        </a>
+                        <a href="#item-2">
+                            <span class="material-symbols-rounded fle">
+                                arrow_circle_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemcarrusel" id="item-2">
+                    <div class="tarjeta" id="tarjeta-2">
+                        <video width="250px" autoplay muted loop>
+                            <source src="./videos/ana.mp4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/dos.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/jonajovideoo.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/pilates.mp4" type="video/MP4"></source>
+                        </video>
+                    </div>
+
+                    <div class="flechas">
+                        <a href="#item-1">
+                            <span class="material-symbols-rounded fle">
+                                arrow_circle_left
+                            </span>
+                        </a>
+                        <a href="#item-3">
+                            <span class="material-symbols-rounded fle">
+                                arrow_circle_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemcarrusel" id="item-3">
+                    <div class="tarjeta" id="tarjeta-3">
+                        <video width="250px" autoplay muted loop>
+                            <source src="./videos/dos.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/tres.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/furoree.mp4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/juroku.mp4" type="video/MP4"></source>
+                        </video>
+                        
+                    </div>
+                    <div class="flechas">
+                        <a href="#item-2">
+                            <span class="material-symbols-rounded fle">
+                                arrow_circle_left
+                            </span>
+                        </a>
+                        <a href="#item-4">
+                            <span class="material-symbols-rounded fle">
+                                arrow_circle_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemcarrusel" id="item-4">
+                    <div class="tarjeta" id="tarjeta-4">
+                        <video width="250px" autoplay muted loop>
+                            <source src="./videos/furoree.mp4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/dos.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/jonajovideoo.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/pilates.mp4" type="video/MP4"></source>
+                        </video>
+                        
+                    </div>
+                    <div class="flechas">
+                        <a href="#item-3">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_left
+                            </span>
+                        </a>
+                        <a href="#item-5">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemcarrusel" id="item-5">
+                    <div class="tarjeta" id="tarjeta-5">
+                        <video width="250px" autoplay muted loop>
+                            <source src="./videos/juroku.mp4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/tres.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/furoree.mp4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/uno.MP4" type="video/MP4"></source>
+                        </video>
+                        
+                    </div>
+                    <div class="flechas">
+                        <a href="#item-4">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_left
+                            </span>
+                        </a>
+                        <a href="#item-6">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemcarrusel" id="item-6">
+                    <div class="tarjeta" id="tarjeta-6">
+                        <video width="250px" autoplay muted loop>
+                            <source src="./videos/jonajovideoo.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/ana.mp4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/dos.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/pilates.mp4" type="video/MP4"></source>
+                        </video>
+                        
+                    </div>
+                    <div class="flechas">
+                        <a href="#item-5">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_left
+                            </span>
+                        </a>
+                        <a href="#item-7">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemcarrusel" id="item-7">
+                    <div class="tarjeta" id="tarjeta-7">
+                        <video width="250px" autoplay muted loop>
+                            <source src="./videos/cuatro.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/uno.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/tres.MP4" type="video/MP4"></source>
+                        </video>
+                        <video width="250px" autoplay muted loop class="off">
+                            <source src="./videos/furoree.mp4" type="video/MP4"></source>
+                        </video>
+                        
+                    </div>
+                    <div class="flechas">
+                        <a href="#item-6">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_left
+                            </span>
+                        </a>
+                        <a href="#item-1">
+                            <span class="material-symbols-rounded">
+                                arrow_circle_right
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box herramientas">
+                <h3>Habilidades Técnicas</h3>
+                <div id="iconos">
+                    <div class="icono-1"></div>
+                    <div class="icono-2"></div>
+                    <div class="icono-3"></div>
+                    <div class="icono-4"></div>
+                    <div class="icono-5"></div>
+                    <div class="icono-6"></div>
+                    <div class="icono-7"></div>
+                    <div class="icono-8"></div>
+                    <div class="icono-9"></div>
+                    <div class="icono-10"></div>
+                    <div class="icono-11"></div>
+                    <div class="icono-12"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contac">
+        <div id="fondo">
+            <div class="rosa">
+                <h3>¡Trabajemos Juntos!</h3>
+                <div class="email">
+                    <a href="mailto:danig.socialmedia@gmail.com" target="_blank"><img src="./iconos/Gmail_Logo_512px.png"></a>
+                    <a href="https://wa.me/34674958939?text=Hola, me interesa trabajar contigo." target="_blank"><img src="./iconos/whatsapp.png"></a>
+                </div>
+                <i class="hola"><img src="./iconos/perfil.png"></i>
+                <p>&copy; copyright all rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        } 
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
